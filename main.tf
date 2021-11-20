@@ -32,6 +32,6 @@ resource "aws_apigatewayv2_api_mapping" "mapping" {
 
   api_id          = aws_apigatewayv2_api.api.id
   domain_name     = var.domain
-  stage           = var.stage
+  stage           = aws_apigatewayv2_stage.stage.id
   api_mapping_key = var.path
 }
