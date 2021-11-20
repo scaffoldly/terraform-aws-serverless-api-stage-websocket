@@ -2,7 +2,7 @@ variable "repository_name" {
   type = string
 }
 
-variable "service_slug" {
+variable "path" {
   type = string
 }
 
