@@ -43,12 +43,11 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
+| <a name="input_domain"></a> [domain](#input\_domain) | n/a | `string` | `""` | no |
 | <a name="input_logs_arn"></a> [logs\_arn](#input\_logs\_arn) | n/a | `string` | n/a | yes |
 | <a name="input_path"></a> [path](#input\_path) | n/a | `string` | n/a | yes |
 | <a name="input_repository_name"></a> [repository\_name](#input\_repository\_name) | n/a | `string` | n/a | yes |
 | <a name="input_stage"></a> [stage](#input\_stage) | n/a | `string` | n/a | yes |
-| <a name="input_websocket_domain"></a> [websocket\_domain](#input\_websocket\_domain) | n/a | `string` | `""` | no |
-| <a name="input_websocket_domain_id"></a> [websocket\_domain\_id](#input\_websocket\_domain\_id) | n/a | `string` | `""` | no |
 
 ## Outputs
 
