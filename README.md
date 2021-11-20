@@ -43,15 +43,17 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_api_gateway_websocket_domain_id"></a> [api\_gateway\_websocket\_domain\_id](#input\_api\_gateway\_websocket\_domain\_id) | n/a | `string` | n/a | yes |
 | <a name="input_logs_arn"></a> [logs\_arn](#input\_logs\_arn) | n/a | `string` | n/a | yes |
 | <a name="input_path"></a> [path](#input\_path) | n/a | `string` | n/a | yes |
 | <a name="input_repository_name"></a> [repository\_name](#input\_repository\_name) | n/a | `string` | n/a | yes |
 | <a name="input_stage"></a> [stage](#input\_stage) | n/a | `string` | n/a | yes |
+| <a name="input_websocket_domain"></a> [websocket\_domain](#input\_websocket\_domain) | n/a | `string` | `""` | no |
+| <a name="input_websocket_domain_id"></a> [websocket\_domain\_id](#input\_websocket\_domain\_id) | n/a | `string` | `""` | no |
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
 | <a name="output_api_id"></a> [api\_id](#output\_api\_id) | n/a |
+| <a name="output_url"></a> [url](#output\_url) | n/a |
 <!-- END_TF_DOCS -->
