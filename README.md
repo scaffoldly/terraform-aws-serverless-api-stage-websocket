@@ -45,8 +45,8 @@ No modules.
 |------|-------------|------|---------|:--------:|
 | <a name="input_api_gateway_websocket_domain_id"></a> [api\_gateway\_websocket\_domain\_id](#input\_api\_gateway\_websocket\_domain\_id) | n/a | `string` | n/a | yes |
 | <a name="input_logs_arn"></a> [logs\_arn](#input\_logs\_arn) | n/a | `string` | n/a | yes |
+| <a name="input_path"></a> [path](#input\_path) | n/a | `string` | n/a | yes |
 | <a name="input_repository_name"></a> [repository\_name](#input\_repository\_name) | n/a | `string` | n/a | yes |
-| <a name="input_service_slug"></a> [service\_slug](#input\_service\_slug) | n/a | `string` | n/a | yes |
 | <a name="input_stage"></a> [stage](#input\_stage) | n/a | `string` | n/a | yes |
 
 ## Outputs
