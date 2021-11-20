@@ -14,12 +14,7 @@ variable "logs_arn" {
   type = string
 }
 
-variable "websocket_domain" {
-  type    = string
-  default = ""
-}
-
-variable "websocket_domain_id" {
+variable "domain" {
   type    = string
   default = ""
 }

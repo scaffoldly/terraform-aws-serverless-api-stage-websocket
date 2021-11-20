@@ -28,10 +28,10 @@ resource "aws_apigatewayv2_stage" "stage" {
 }
 
 resource "aws_apigatewayv2_api_mapping" "mapping" {
-  count = var.websocket_domain_id != "" ? 1 : 0
+  count = var.domain != "" ? 1 : 0
 
   api_id          = aws_apigatewayv2_api.api.id
-  domain_name     = var.websocket_domain_id
+  domain_name     = var.domain
   stage           = var.stage
   api_mapping_key = var.path
 }

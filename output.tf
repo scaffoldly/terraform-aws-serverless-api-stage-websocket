@@ -3,5 +3,5 @@ output "api_id" {
 }
 
 output "url" {
-  value = var.websocket_domain_id != "" ? aws_apigatewayv2_stage.stage.invoke_url : "wss://${format("wss://%s%s", var.websocket_domain, var.path != "" ? "/${var.path}" : "")}"
+  value = var.domain != "" ? aws_apigatewayv2_stage.stage.invoke_url : "wss://${format("wss://%s%s", var.domain, var.path != "" ? "/${var.path}" : "")}"
 }
