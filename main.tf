@@ -18,6 +18,8 @@ resource "aws_apigatewayv2_stage" "stage" {
     data_trace_enabled       = true
     detailed_metrics_enabled = true
     logging_level            = "INFO"
+    throttling_rate_limit    = 10000
+    throttling_burst_limit   = 5000
   }
 
   lifecycle {
